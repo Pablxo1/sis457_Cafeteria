@@ -1,2 +1,2 @@
 # sis457_Cafeteria
-Creacion Repositorio 
+Aplicación enfocada en la gestión integral de una cafetería, diseñada para facilitar las operaciones diarias tanto en el área de atención al cliente como en la parte administrativa. Este sistema ayuda a centralizar la información clave del negocio, brindando herramientas para organizar el menú, registrar las órdenes de los clientes, mantener actualizados los niveles de existencias y acceder a información útil para la toma de decisiones.
