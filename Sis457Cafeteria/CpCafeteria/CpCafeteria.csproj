@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1782CA18-524D-43B3-B9F3-121ABCAB0727}</ProjectGuid>
+    <ProjectGuid>{CC96C164-9AB0-47D1-AA57-2D4ED5C6B564}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CpCafeteria</RootNamespace>
     <AssemblyName>CpCafeteria</AssemblyName>
@@ -46,8 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -56,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -71,14 +81,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CadCafeteria\CadCafeteria.csproj">
-      <Project>{55835e09-79c0-4a0b-8017-603d72adbfd4}</Project>
-      <Name>CadCafeteria</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ClnCafeteria\ClnCafeteria.csproj">
-      <Project>{ae10bcd1-c950-4383-a8a3-ea5572954cf4}</Project>
-      <Name>ClnCafeteria</Name>
-    </ProjectReference>
+    <None Include="Resources\list_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 20 may 2025, 10_22_50 a.m..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 20 may 2025, 10_35_46 a.m..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT_Image_20_may_2025__10_35_46_a.m.-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_25dp_434343_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_box_outline_blank_25dp_434343_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_window_2_25dp_434343_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_25dp_434343_FILL0_wght600_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_25dp_434343_FILL0_wght600_GRAD0_opsz24 - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontal_rule_25dp_434343_FILL0_wght400_GRAD0_opsz24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

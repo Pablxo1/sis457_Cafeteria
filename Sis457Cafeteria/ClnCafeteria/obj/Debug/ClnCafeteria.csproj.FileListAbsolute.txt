@@ -1,0 +1,15 @@
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\ClnCafeteria.dll.config
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\ClnCafeteria.dll
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\ClnCafeteria.pdb
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\CadCafeteria.dll
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\EntityFramework.dll
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\EntityFramework.SqlServer.dll
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\CadCafeteria.pdb
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\CadCafeteria.dll.config
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\EntityFramework.xml
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\bin\Debug\EntityFramework.SqlServer.xml
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\obj\Debug\ClnCafeteria.csproj.AssemblyReference.cache
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\obj\Debug\ClnCafeteria.csproj.CoreCompileInputs.cache
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\obj\Debug\ClnCafet.3A80C72A.Up2Date
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\obj\Debug\ClnCafeteria.dll
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\ClnCafeteria\obj\Debug\ClnCafeteria.pdb

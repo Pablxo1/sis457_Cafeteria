@@ -22,18 +22,27 @@ DROP TABLE Empleado;
 DROP TABLE Usuario;
 DROP TABLE Pedido;
 DROP TABLE DetallePedido;
-
+DROP TABLE Categoria;
 
 CREATE TABLE Producto (
     id INT PRIMARY KEY IDENTITY(1,1),
+    idCategoria INT NOT NULL,
     codigo VARCHAR(20) NOT NULL,
     nombre VARCHAR(100) NOT NULL,
     descripcion VARCHAR(250),
     precioVenta DECIMAL NOT NULL CHECK (precioVenta > 0),
-    categoria VARCHAR(50) NOT NULL,  -- Ej: "Bebidas", "Comida", "Postres",etc se agregaran en una opcion cbx en windowns forms
     usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME(),
     fechaRegistro DATETIME NOT NULL DEFAULT GETDATE(),
     estado SMALLINT NOT NULL DEFAULT 1,
+    CONSTRAINT FK_Producto_Categoria FOREIGN KEY (idCategoria) REFERENCES Categoria(id)
+);
+
+CREATE TABLE Categoria (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nombre VARCHAR(50) NOT NULL UNIQUE,
+    usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME(),
+    fechaRegistro DATETIME NOT NULL DEFAULT GETDATE(),
+    estado SMALLINT NOT NULL DEFAULT 1
 );
 
 CREATE TABLE Cliente (
@@ -101,15 +110,25 @@ CREATE TABLE DetallePedido (
 );
 
 -- DML
+--Categorias
+INSERT INTO Categoria(nombre)
+VALUES ('Comida');
+
+INSERT INTO Categoria(nombre)
+VALUES ('Bebida Caliente');
+
+INSERT INTO Categoria(nombre)
+VALUES ('Postre');
+
 --Productos
-INSERT INTO Producto(codigo,nombre,descripcion,precioVenta,categoria)
-VALUES ('HBR-M', 'Hamburguesa', 'Hamburguesa Mediana', 10, 'Comida');
+INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,precioVenta)
+VALUES (1,'HBR-M', 'Hamburguesa', 'Hamburguesa Mediana', 10);
 
-INSERT INTO Producto(codigo,nombre,descripcion,precioVenta,categoria)
-VALUES ('CF-NC', 'Café', 'Café extra Negro Caliente', 8, 'Bebida Caliente');
+INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,precioVenta)
+VALUES (2,'CF-NC', 'Café', 'Café extra Negro Caliente', 8);
 
-INSERT INTO Producto(codigo,nombre,descripcion,precioVenta,categoria)
-VALUES ('TRA-LP', 'Torta Porcion', 'Torta 3 leches Porcion', 10, 'Postre');
+INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,precioVenta)
+VALUES (3,'TRA-LP', 'Torta Porcion', 'Torta 3 leches Porcion', 10);
 
 --Empleados
 INSERT INTO Empleado(cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)
@@ -127,6 +146,7 @@ VALUES (1, 'MortyUser', 'morty123');
 INSERT INTO Pedido (idUsuario, idCliente)
 VALUES (1, 1);
 
+SELECT * FROM Categoria;
 SELECT * FROM Producto;
 SELECT * FROM Empleado;
 SELECT * FROM Cliente;

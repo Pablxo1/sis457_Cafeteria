@@ -1,0 +1,11 @@
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\bin\Debug\CpCafeteria.exe.config
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\bin\Debug\CpCafeteria.exe
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\bin\Debug\CpCafeteria.pdb
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.csproj.AssemblyReference.cache
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.Principal.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.Properties.Resources.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.csproj.GenerateResource.cache
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.csproj.CoreCompileInputs.cache
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.exe
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.pdb
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.exe.config
