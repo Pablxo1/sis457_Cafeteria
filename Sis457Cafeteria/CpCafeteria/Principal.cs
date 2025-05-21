@@ -25,7 +25,7 @@ namespace CpCafeteria
 
         private void btnDeslizar_Click(object sender, EventArgs e)
         {
-            if(pnMenu.Width == 250)
+            if (pnMenu.Width == 250)
             {
                 pnMenu.Width = 70;
             }
@@ -33,26 +33,26 @@ namespace CpCafeteria
                 pnMenu.Width = 250;
         }
 
-        private void iconCerrar_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void iconMaximizar_Click(object sender, EventArgs e)
+        private void btnMaximizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
-            iconRestaurar.Visible = true;
-            iconMaximizar.Visible = false;
+            btnRestaurar.Visible = true;
+            btnMaximizar.Visible = false;
         }
 
-        private void iconRestaurar_Click(object sender, EventArgs e)
+        private void btnRestaurar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;
-            iconRestaurar.Visible = false;
-            iconMaximizar.Visible = true;
+            btnRestaurar.Visible = false;
+            btnMaximizar.Visible = true;
         }
 
-        private void iconMinimizar_Click(object sender, EventArgs e)
+        private void btnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
@@ -71,14 +71,14 @@ namespace CpCafeteria
             if (this.WindowState == FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
-                iconRestaurar.Visible = true;
-                iconMaximizar.Visible = false;
+                btnRestaurar.Visible = true;
+                btnMaximizar.Visible = false;
             }
             else if (this.WindowState == FormWindowState.Maximized)
             {
                 this.WindowState = FormWindowState.Normal;
-                iconRestaurar.Visible = false;
-                iconMaximizar.Visible = true;
+                btnRestaurar.Visible = false;
+                btnMaximizar.Visible = true;
             }
         }
     }

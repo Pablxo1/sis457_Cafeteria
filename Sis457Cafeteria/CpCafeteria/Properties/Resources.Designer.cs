@@ -93,6 +93,26 @@ namespace CpCafeteria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_21_may_2025__09_58_34_a_m_ {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 21 may 2025, 09_58_34 a.m.", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_21_may_2025__09_58_34_a_m__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT_Image_21_may_2025__09_58_34_a.m.-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap check_box_outline_blank_25dp_434343_FILL0_wght400_GRAD0_opsz24 {
             get {
                 object obj = ResourceManager.GetObject("check_box_outline_blank_25dp_434343_FILL0_wght400_GRAD0_opsz24", resourceCulture);
@@ -146,6 +166,16 @@ namespace CpCafeteria.Properties {
         internal static System.Drawing.Bitmap minimize_25dp_434343_FILL0_wght600_GRAD0_opsz24___copia {
             get {
                 object obj = ResourceManager.GetObject("minimize_25dp_434343_FILL0_wght600_GRAD0_opsz24 - copia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap restaurant_25dp_FFEFD5_FILL0_wght400_GRAD0_opsz24 {
+            get {
+                object obj = ResourceManager.GetObject("restaurant_25dp_FFEFD5_FILL0_wght400_GRAD0_opsz24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
