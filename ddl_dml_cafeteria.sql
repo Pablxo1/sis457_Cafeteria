@@ -16,13 +16,20 @@ GO
 ALTER ROLE [db_owner] ADD MEMBER [usrcafe]
 GO
 
-DROP TABLE Producto;
-DROP TABLE Cliente;
-DROP TABLE Empleado;
-DROP TABLE Usuario;
-DROP TABLE Pedido;
 DROP TABLE DetallePedido;
+DROP TABLE Pedido;
+DROP TABLE Usuario;
+DROP TABLE Empleado;
+DROP TABLE Cliente;
+DROP TABLE Producto;
 DROP TABLE Categoria;
+DROP PROC paProductoListar;
+
+CREATE TABLE Categoria (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nombre VARCHAR(50) NOT NULL UNIQUE,
+    estado SMALLINT NOT NULL DEFAULT 1
+);
 
 CREATE TABLE Producto (
     id INT PRIMARY KEY IDENTITY(1,1),
@@ -30,6 +37,7 @@ CREATE TABLE Producto (
     codigo VARCHAR(20) NOT NULL,
     nombre VARCHAR(100) NOT NULL,
     descripcion VARCHAR(250),
+    saldo DECIMAL NOT NULL DEFAULT 0,
     precioVenta DECIMAL NOT NULL CHECK (precioVenta > 0),
     usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME(),
     fechaRegistro DATETIME NOT NULL DEFAULT GETDATE(),
@@ -37,13 +45,6 @@ CREATE TABLE Producto (
     CONSTRAINT FK_Producto_Categoria FOREIGN KEY (idCategoria) REFERENCES Categoria(id)
 );
 
-CREATE TABLE Categoria (
-    id INT PRIMARY KEY IDENTITY(1,1),
-    nombre VARCHAR(50) NOT NULL UNIQUE,
-    usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME(),
-    fechaRegistro DATETIME NOT NULL DEFAULT GETDATE(),
-    estado SMALLINT NOT NULL DEFAULT 1
-);
 
 CREATE TABLE Cliente (
     id INT PRIMARY KEY IDENTITY(1,1),
@@ -108,6 +109,16 @@ CREATE TABLE DetallePedido (
 
 
 );
+GO
+CREATE PROC paProductoListar @parametro VARCHAR(100)
+AS
+  SELECT p.id, p.codigo,p.nombre, p.descripcion, ca.nombre AS Categoria, p.saldo, p.precioVenta,
+		 p.usuarioRegistro, p.fechaRegistro, p.estado, p.idCategoria
+  FROM Producto p
+  INNER JOIN Categoria ca ON ca.id = p.idCategoria
+  WHERE p.estado<>-1 AND p.nombre+p.codigo+p.descripcion+ca.nombre LIKE '%'+REPLACE(@parametro,' ','%')+'%'
+  ORDER BY p.estado DESC, p.descripcion ASC;
+GO
 
 -- DML
 --Categorias
@@ -121,14 +132,14 @@ INSERT INTO Categoria(nombre)
 VALUES ('Postre');
 
 --Productos
-INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,precioVenta)
-VALUES (1,'HBR-M', 'Hamburguesa', 'Hamburguesa Mediana', 10);
+INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,saldo,precioVenta)
+VALUES (1,'HBR-M', 'Hamburguesa', 'Hamburguesa Mediana',50, 10);
 
-INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,precioVenta)
-VALUES (2,'CF-NC', 'Café', 'Café extra Negro Caliente', 8);
+INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,saldo,precioVenta)
+VALUES (2,'CF-NC', 'Café', 'Café extra Negro Caliente',40, 8);
 
-INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,precioVenta)
-VALUES (3,'TRA-LP', 'Torta Porcion', 'Torta 3 leches Porcion', 10);
+INSERT INTO Producto(idCategoria,codigo,nombre,descripcion,saldo,precioVenta)
+VALUES (3,'TRA-LP', 'Torta Porcion', 'Torta 3 leches Porcion',60, 10);
 
 --Empleados
 INSERT INTO Empleado(cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)

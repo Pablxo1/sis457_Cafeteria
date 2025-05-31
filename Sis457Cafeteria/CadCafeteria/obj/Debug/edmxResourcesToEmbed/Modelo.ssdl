@@ -6,8 +6,6 @@
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
     <Property Name="estado" Type="smallint" Nullable="false" />
   </EntityType>
   <EntityType Name="Cliente">
@@ -73,6 +71,7 @@
     <Property Name="codigo" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="descripcion" Type="varchar" MaxLength="250" />
+    <Property Name="saldo" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="precioVenta" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="usuarioRegistro" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="fechaRegistro" Type="datetime" Nullable="false" />
@@ -162,6 +161,9 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="paProductoListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="parametro" Type="varchar" Mode="In" />
+  </Function>
   <EntityContainer Name="LabCafeteriaModelStoreContainer">
     <EntitySet Name="Categoria" EntityType="Self.Categoria" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
