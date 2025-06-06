@@ -22,3 +22,4 @@ G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\C
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmPrincipal.resources
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmCategoria.resources
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.exe.config
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmOrdenes.resources

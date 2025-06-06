@@ -45,6 +45,10 @@ namespace CpCafeteria
             AbrirFormulario(new FrmProductos());
         }
 
+        private void btnOrdenes_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmOrdenes());
+        }
 
         private void btnDeslizar_Click(object sender, EventArgs e)
         {

@@ -31,26 +31,26 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.pnMenu = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnOrdenes = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnProductos = new System.Windows.Forms.Button();
+            this.pctCafeteriaLogo = new System.Windows.Forms.PictureBox();
             this.paBarraTitulo = new System.Windows.Forms.Panel();
-            this.pnContenedor = new System.Windows.Forms.Panel();
             this.btnDeslizar = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnRestaurar = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnProductos = new System.Windows.Forms.Button();
-            this.pctCafeteriaLogo = new System.Windows.Forms.PictureBox();
+            this.pnContenedor = new System.Windows.Forms.Panel();
             this.pnMenu.SuspendLayout();
-            this.paBarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctCafeteriaLogo)).BeginInit();
+            this.paBarraTitulo.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnMenu
@@ -63,7 +63,7 @@
             this.pnMenu.Controls.Add(this.panel5);
             this.pnMenu.Controls.Add(this.button3);
             this.pnMenu.Controls.Add(this.panel3);
-            this.pnMenu.Controls.Add(this.button2);
+            this.pnMenu.Controls.Add(this.btnOrdenes);
             this.pnMenu.Controls.Add(this.panel1);
             this.pnMenu.Controls.Add(this.btnProductos);
             this.pnMenu.Controls.Add(this.pctCafeteriaLogo);
@@ -82,6 +82,23 @@
             this.panel10.Size = new System.Drawing.Size(8, 40);
             this.panel10.TabIndex = 22;
             // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 352);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(250, 40);
+            this.button5.TabIndex = 21;
+            this.button5.Text = "Productos";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
@@ -89,6 +106,23 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(8, 40);
             this.panel8.TabIndex = 19;
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 306);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(250, 40);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Productos";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
@@ -98,6 +132,23 @@
             this.panel5.Size = new System.Drawing.Size(8, 40);
             this.panel5.TabIndex = 16;
             // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 260);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(250, 40);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Productos";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
@@ -106,6 +157,24 @@
             this.panel3.Size = new System.Drawing.Size(8, 40);
             this.panel3.TabIndex = 13;
             // 
+            // btnOrdenes
+            // 
+            this.btnOrdenes.FlatAppearance.BorderSize = 0;
+            this.btnOrdenes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnOrdenes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOrdenes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrdenes.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.btnOrdenes.Image = global::CpCafeteria.Properties.Resources.point_of_sale_25dp_FFEFD5_FILL0_wght400_GRAD0_opsz242;
+            this.btnOrdenes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOrdenes.Location = new System.Drawing.Point(0, 214);
+            this.btnOrdenes.Name = "btnOrdenes";
+            this.btnOrdenes.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnOrdenes.Size = new System.Drawing.Size(250, 40);
+            this.btnOrdenes.TabIndex = 12;
+            this.btnOrdenes.Text = "Ordenes";
+            this.btnOrdenes.UseVisualStyleBackColor = true;
+            this.btnOrdenes.Click += new System.EventHandler(this.btnOrdenes_Click);
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
@@ -113,6 +182,35 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(8, 40);
             this.panel1.TabIndex = 2;
+            // 
+            // btnProductos
+            // 
+            this.btnProductos.FlatAppearance.BorderSize = 0;
+            this.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductos.ForeColor = System.Drawing.Color.PapayaWhip;
+            this.btnProductos.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.Image")));
+            this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductos.Location = new System.Drawing.Point(0, 168);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnProductos.Size = new System.Drawing.Size(250, 40);
+            this.btnProductos.TabIndex = 1;
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.UseVisualStyleBackColor = true;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
+            // 
+            // pctCafeteriaLogo
+            // 
+            this.pctCafeteriaLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctCafeteriaLogo.Image")));
+            this.pctCafeteriaLogo.Location = new System.Drawing.Point(0, 0);
+            this.pctCafeteriaLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.pctCafeteriaLogo.Name = "pctCafeteriaLogo";
+            this.pctCafeteriaLogo.Size = new System.Drawing.Size(194, 87);
+            this.pctCafeteriaLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctCafeteriaLogo.TabIndex = 0;
+            this.pctCafeteriaLogo.TabStop = false;
             // 
             // paBarraTitulo
             // 
@@ -129,15 +227,6 @@
             this.paBarraTitulo.TabIndex = 1;
             this.paBarraTitulo.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.paBarraTitulo_MouseDoubleClick);
             this.paBarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.paBarraTitulo_MouseDown);
-            // 
-            // pnContenedor
-            // 
-            this.pnContenedor.BackColor = System.Drawing.Color.PapayaWhip;
-            this.pnContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnContenedor.Location = new System.Drawing.Point(250, 50);
-            this.pnContenedor.Name = "pnContenedor";
-            this.pnContenedor.Size = new System.Drawing.Size(1050, 600);
-            this.pnContenedor.TabIndex = 2;
             // 
             // btnDeslizar
             // 
@@ -214,102 +303,14 @@
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // button5
+            // pnContenedor
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 352);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(250, 40);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "Productos";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 306);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(250, 40);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Productos";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 260);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(250, 40);
-            this.button3.TabIndex = 15;
-            this.button3.Text = "Productos";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 214);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(250, 40);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Productos";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // btnProductos
-            // 
-            this.btnProductos.FlatAppearance.BorderSize = 0;
-            this.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProductos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductos.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.btnProductos.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.Image")));
-            this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductos.Location = new System.Drawing.Point(0, 168);
-            this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnProductos.Size = new System.Drawing.Size(250, 40);
-            this.btnProductos.TabIndex = 1;
-            this.btnProductos.Text = "Productos";
-            this.btnProductos.UseVisualStyleBackColor = true;
-            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
-            // 
-            // pctCafeteriaLogo
-            // 
-            this.pctCafeteriaLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctCafeteriaLogo.Image")));
-            this.pctCafeteriaLogo.Location = new System.Drawing.Point(0, 0);
-            this.pctCafeteriaLogo.Margin = new System.Windows.Forms.Padding(2);
-            this.pctCafeteriaLogo.Name = "pctCafeteriaLogo";
-            this.pctCafeteriaLogo.Size = new System.Drawing.Size(194, 87);
-            this.pctCafeteriaLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctCafeteriaLogo.TabIndex = 0;
-            this.pctCafeteriaLogo.TabStop = false;
+            this.pnContenedor.BackColor = System.Drawing.Color.PapayaWhip;
+            this.pnContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnContenedor.Location = new System.Drawing.Point(250, 50);
+            this.pnContenedor.Name = "pnContenedor";
+            this.pnContenedor.Size = new System.Drawing.Size(1050, 600);
+            this.pnContenedor.TabIndex = 2;
             // 
             // FrmPrincipal
             // 
@@ -326,8 +327,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Principal";
             this.pnMenu.ResumeLayout(false);
-            this.paBarraTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pctCafeteriaLogo)).EndInit();
+            this.paBarraTitulo.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -352,6 +353,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnOrdenes;
     }
 }
