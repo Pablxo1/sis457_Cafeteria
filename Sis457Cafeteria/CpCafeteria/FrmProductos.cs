@@ -230,7 +230,7 @@ namespace CpCafeteria
                 producto.idCategoria = Convert.ToInt32(cbxCategoria.SelectedValue);
                 producto.saldo = nudSaldo.Value;
                 producto.precioVenta = nudPrecioVenta.Value;
-                producto.usuarioRegistro = "admin";
+                producto.usuarioRegistro = Util.usuario.usuario1;
                 if (!modoEdicion)
                 {
                     producto.fechaRegistro = DateTime.Now;
@@ -240,8 +240,16 @@ namespace CpCafeteria
                 else
                 {
                     int index = dgvProductos.CurrentCell.RowIndex;
-                    producto.id = Convert.ToInt32(dgvProductos.Rows[index].Cells["id"].Value);
-                    ProductoCln.actualizar(producto);
+                    int id = Convert.ToInt32(dgvProductos.Rows[index].Cells["id"].Value);
+                    var productoExistente = ProductoCln.obtenerUno(id);
+                    productoExistente.codigo = txtCodigo.Text.Trim();
+                    productoExistente.nombre = txtNombre.Text.Trim();
+                    productoExistente.descripcion = txtDescripcion.Text.Trim();
+                    productoExistente.idCategoria = Convert.ToInt32(cbxCategoria.SelectedValue);
+                    productoExistente.saldo = nudSaldo.Value;
+                    productoExistente.precioVenta = nudPrecioVenta.Value;
+                    productoExistente.usuarioRegistro = Util.usuario.usuario1;
+                    ProductoCln.actualizar(productoExistente);
                 }
                 ocultarPanelAgregar();
                 limpiar();
@@ -270,7 +278,7 @@ namespace CpCafeteria
                 "::: Cafeteria - Mensaje :::", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialog == DialogResult.Yes)
             {
-                ProductoCln.eliminar(id);
+                ProductoCln.eliminar(id, Util.usuario.usuario1);
                 listar();
                 MessageBox.Show("El Producto se ha eliminado correctamente", "::: Cafeteria - Mensaje :::",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);

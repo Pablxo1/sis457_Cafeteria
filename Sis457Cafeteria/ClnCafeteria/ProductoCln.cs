@@ -35,13 +35,13 @@ namespace ClnCafeteria
             }
         }
 
-        public static int eliminar(int id)//, string usuario
+        public static int eliminar(int id, string usuario)
         {
             using (var context = new LabCafeteriaEntities())
             {
                 var producto = context.Producto.Find(id);
                 producto.estado = -1;
-                //producto.usuarioRegistro = usuario;
+                producto.usuarioRegistro = usuario;
                 return context.SaveChanges();
             }
         }

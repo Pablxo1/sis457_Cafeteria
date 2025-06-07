@@ -14,9 +14,20 @@ namespace CpCafeteria
     public partial class FrmPrincipal : Form
     {
         private Form activeForm;
-        public FrmPrincipal()
+        private FrmAutenticacion frmAutenticacion;
+        public FrmPrincipal(FrmAutenticacion frmAutenticacion)
         {
             InitializeComponent();
+            paBarraTitulo.BackColor = Color.PapayaWhip;
+            timer.Enabled = true;
+            timer.Interval = 1000;
+            timer.Tick += Timer_Tick;
+            this.frmAutenticacion = frmAutenticacion;
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            lblReloj.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
         [DllImport("user32.Dll", EntryPoint = "ReleaseCapture")]
@@ -40,14 +51,42 @@ namespace CpCafeteria
             formulario.Show();
         }
 
+        private void pctCafeteriaLogo_Click(object sender, EventArgs e)
+        {
+            paBarraTitulo.BackColor = Color.PapayaWhip;
+            if (activeForm != null)
+            {
+                activeForm.Close();
+                activeForm = null;
+            }
+        }
+
         private void btnProductos_Click(object sender, EventArgs e)
         {
+            paBarraTitulo.BackColor = Color.PapayaWhip;
             AbrirFormulario(new FrmProductos());
         }
 
-        private void btnOrdenes_Click(object sender, EventArgs e)
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FrmOrdenes());
+            paBarraTitulo.BackColor = Color.BurlyWood;
+            AbrirFormulario(new FrmEmpleado());
+        }
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            paBarraTitulo.BackColor = Color.Wheat;
+            AbrirFormulario(new FrmClientes());
+        }
+        private void btnPedidos_Click(object sender, EventArgs e)
+        {
+            paBarraTitulo.BackColor = Color.NavajoWhite;
+            AbrirFormulario(new FrmPedidos());
+        }
+        private void btnReportePedidos_Click(object sender, EventArgs e)
+        {
+            paBarraTitulo.BackColor = Color.DarkKhaki;
+            AbrirFormulario(new FrmListaPedidos());   
         }
 
         private void btnDeslizar_Click(object sender, EventArgs e)

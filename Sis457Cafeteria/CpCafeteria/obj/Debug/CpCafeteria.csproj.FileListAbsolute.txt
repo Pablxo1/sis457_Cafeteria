@@ -21,5 +21,10 @@ G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\bin\Debug\E
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmProductos.resources
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmPrincipal.resources
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmCategoria.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmEmpleado.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmAutenticacion.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmClientes.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmPedidos.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmSeleccionarProducto.resources
 G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.exe.config
-G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmOrdenes.resources
+G:\PROGRAMACION\LAB 257\sis457_Cafeteria\Sis457Cafeteria\CpCafeteria\obj\Debug\CpCafeteria.FrmListaPedidos.resources
