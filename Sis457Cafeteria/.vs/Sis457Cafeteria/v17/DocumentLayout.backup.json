@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{97FC6F53-A7B3-45CA-AF97-B3BFDB01BFD7}|WebCafeteria\\WebCafeteria.csproj|g:\\programacion\\lab 257\\sis457_cafeteria\\sis457cafeteria\\webcafeteria\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FC6F53-A7B3-45CA-AF97-B3BFDB01BFD7}|WebCafeteria\\WebCafeteria.csproj|solutionrelative:webcafeteria\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97FC6F53-A7B3-45CA-AF97-B3BFDB01BFD7}|WebCafeteria\\WebCafeteria.csproj|g:\\programacion\\lab 257\\sis457_cafeteria\\sis457cafeteria\\webcafeteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{97FC6F53-A7B3-45CA-AF97-B3BFDB01BFD7}|WebCafeteria\\WebCafeteria.csproj|solutionrelative:webcafeteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,19 +43,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebCafeteria\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebCafeteria\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:25:36.826Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebCafeteria\\Controllers\\AccountController.cs",
+              "ToolTip": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebCafeteria\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T19:33:06.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebCafeteria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebCafeteria\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAewD0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:25:36.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Pedidos\\Details.cshtml",
               "RelativeDocumentMoniker": "WebCafeteria\\Views\\Pedidos\\Details.cshtml",
@@ -59,12 +75,11 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Pedidos\\Details.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAewCgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:17:19.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:17:19.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Pedidos\\Index.cshtml",
               "RelativeDocumentMoniker": "WebCafeteria\\Views\\Pedidos\\Index.cshtml",
@@ -72,12 +87,11 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Pedidos\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:13:31.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:13:31.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "WebCafeteria\\Views\\Empleados\\Index.cshtml",
@@ -85,12 +99,11 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Empleados\\Index.cshtml",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:12:36.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:12:36.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Productos\\Index.cshtml",
               "RelativeDocumentMoniker": "WebCafeteria\\Views\\Productos\\Index.cshtml",
@@ -98,12 +111,11 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Productos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:10:50.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:10:50.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\PROGRAMACION\\LAB 257\\sis457_Cafeteria\\Sis457Cafeteria\\WebCafeteria\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "WebCafeteria\\Views\\Clientes\\Index.cshtml",
@@ -111,8 +123,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Clientes\\Index.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAewE4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:10:21.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:10:21.189Z"
             }
           ]
         }

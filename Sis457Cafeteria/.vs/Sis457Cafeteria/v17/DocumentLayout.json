@@ -63,8 +63,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACsAAAAAAAAAAAAewD0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:25:36.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:25:36.826Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Pedidos\\Details.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAewCgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:17:19.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:17:19.283Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Pedidos\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:13:31.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:13:31.713Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Empleados\\Index.cshtml",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:12:36.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:12:36.009Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Productos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:10:50.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:10:50.819Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "WebCafeteria\\Views\\Clientes\\Index.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAewE4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T19:10:21.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T19:10:21.189Z"
             }
           ]
         }
